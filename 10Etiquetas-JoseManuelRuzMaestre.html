@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="10Etiquetas-JoseManuelRuzMaestre.css"/>
+        <tittle>HTML básico</tittle>
+    </head>
+
+<body>
+                      <aside>
+            <h2> Productos mencionados</h2>
+                <h4>Creador sitios webs<button type="submit">Conoce más</button></h4>
+                <h4>Sitios web de WordPress<button type="submit">Conoce más</button></h4>
+            </aside>
+    <main>
+    <header>
+       <h1>10 códigos HTML básicos para páginas web(con ejemplos</h1>
+        
+        <p>Estando en el proceso de creación de tu página web, puede que te hayas topado en internet con términos como editor HTML, código HTML o etiquetas HTML. </p>
+        
+        <p>Aunque la mayoría de las plataformas para crear sitios web (como WordPress) son bastante fáciles de utilizar y no requieren de grandes conocimientos técnicos, conocer más sobre HMTL te ayudará a entender conceptos de programación y <strong>te preparará para cuando sea hora de modificar o mejorar la apariencia de tu sitio web.</strong></p>
+        
+        <p>Por eso, en esta ocasión te compartimos algunas nociones básicas del tema, así como <strong>los 10 códigos HTML que debes conocer, acompañados de ejemplos para que aprendas a utilizarlos.</strong></p>
+    </header>
+        <h2>¿Qué es el HTML?</h2>
+        <a href="https://youtube.com">Prueba</a>
+            <p>Las siglas HTML vienen de “Hyper Text Markup Language” o <strong>Lenguaje Marcado de Hipertexto.</strong></p>
+            <p>Los códigos HTML son el lenguaje universal que se utiliza para crear y dar formato a los sitios web. Funcionan en cualquier sistema operativo (Windows, Mac, Linux, etc.) y con cualquier navegador (Chrome, Explorer o Mozilla)</p>
+IMAGEN
+            <p><strong>Aunque no se trata de un lenguaje de programación muy sofisticado,</strong> saber manejar HTML te permite insertar otros códigos más potentes, como los de Javascript, por ejemplo. Ahora veamos el elemento de base de la sintaxis del HTML: las etiquetas.</p>
+
+        <h2>Etiquetas HTML</h2>
+            <p>El lenguaje HTML está conformado por <strong>un sistema de etiquetas en serie o tags,</strong> que incluyen instrucciones que los navegadores traducen como:</p>
+                <ul>
+                    <li>Imagenes</li>
+                    <li>Texto</li>
+                    <li>Hipervínculos</li>
+                    <li>Listas de palabras</li>
+                    <li>Tablas,etc</li>
+                </ul>
+            <p>Así, para que un elemento de este tipo pueda ser leído, la etiqueta debe tener dos partes: una etiqueta de inicio (<etiqueta>) y una de cierre (</etiqueta>) entre guiones (< >).</p>
+            <p>Por ejemplo, las etiquetas <strong> y </strong>definen un texto en negrita. Si en nuestro documento HTML escribimos una frase con el siguiente código:</p>
+            <pre style="padding: 12px; max-width: 100%; background-color: #f5f2f0 !important; text-align: left;">&lt;strong&gt;Este texto va en negritas.&lt;/strong&gt;</pre>
+            <p>El resultado será:</p>
+            <p><strong>Estte texto va en negritas.</strong></p>
+            <p>¡Inténtalo tú mismo! Inserta el código anterior en un visualizador HTML.</p>
+            <p>Como seguro habrás notado, la etiqueta inicial sirve para definir el comportamiento del contenido (por ejemplo, si un texto irá en negritas o si tendrá un tamaño específico), y la de cierre le indica al navegador hasta dónde debe llegar ese comportamiento. Para construir los “cierres” sólo necesitas agregar una diagonal (/) al inicio de la etiqueta.</p>
+        <h2>Recuerda: de no poner la etiqueta de cierre, todo lo que escribas después    de la etiqueta de inicio se desplegará con ese formato.</h2>
+            <p>Cabe destacar que no todas las etiquetas necesitan forzosamente un “cierre”. Por ejemplo, el código <br> para introducir saltos de línea es considerado un “elemento vacío” y puede ir por sí solo en cualquier parte del cuerpo del texto.</p>
+            <p>Para la creación de sitios web completos, usar documentos HTML te permitirá tener organizados en un solo lugar todos los códigos que vayas a usar en cada página. Este documento lo puedes elaborar en el editor de textos de tu preferencia (Microsoft Word o el mismo bloc de notas), y solo debes asegurarte de guardarlo como .html u otro formato web (es un documento por cada página).</p>
+        <h2>Estructura básica HTML</h2>
+            <p>Antes de ver los códigos básicos, debes saber que la <strong>primera línea de tu documento HTML siempre debe contener la etiqueta</strong><em><!DOCTYPE html>.</em> Esto hará que el código de tu sitio sea legible en cualquier navegador.</p>
+            <p>Ahora bien, un documento HTML bien armado tiene cuatro etiquetas esenciales para que el contenido se distribuya correctamente. Estas son:</p>
+
+            <h3>1.HTML</h3>
+                 <p><em>html</em>está al inicio de un documento HTML e indica a los navegadores que la página tiene código HTML para que pueda leerlo de esa forma. Siguiendo la sintaxis del lenguaje, la etiqueta de cierre html será el último elemento del documento.</p>
+            <h3>2.Encabezado</h3>
+                 <p><em>head</em> es la etiqueta que se utiliza para el encabezado de la página. Su principal función es contener toda la información del funcionamiento del sitio. Debido a esto, es un código encriptado que las personas que entran a la página no pueden ver.</p>
+            <h3>3.Título de la página</h3>
+                 <p><em>title</em> es la etiqueta que da a tu sitio un nombre para que los usuarios puedan identificarlo. Es el título que puedes ver en las pestañas del navegador.</p>
+            <h3>4.Cuerpo</h3>
+                <p><em>body</em> es la etiqueta que contiene todos los elementos individuales del sitio. O dicho de otra forma, comprende todo el contenido visible del sitio. Aquí podrás insertar texto, imágenes, videos o cualquier otra funcionalidad que desees mostrar.</p>
+                <p>Ejemplo de las cuatro etiquetas esenciales:</p>
+                <pre style="padding: 12px; max-width: 100%; background-color: #f5f2f0 !important; text-align: left;">&lt;html&gt;
+                   &lt;head&gt;
+                   &lt;title&gt;Mi página de ejemplo&lt;/title&gt;
+                   &lt;/head&gt;
+                   &lt;body&gt;
+                   Aquí va el contenido
+                   &lt;/body&gt;
+                    &lt;/html&gt;</pre>
+            <p>Si creas un documento .html con este código y lo abres en tu navegador, verás algo como esto:</p>
+            <img loading="lazy" class="alignnone wp-image-76632 size-full lazy-loaded" src="http://58f.7f8.myftpupload.com/wp-content/uploads/GoDaddy-html-02-pagina.png" data-lazy-type="image" data-src="http://58f.7f8.myftpupload.com/wp-content/uploads/GoDaddy-html-02-pagina.png" alt="Crea tu página web con HTML" width="648" height="369">
+            <p>Con las cuatro etiquetas anteriores ya tienes el “esqueleto” de tu página web. La siguiente tarea sería introducir texto (entre los tags <em>body y /body</em>) y controlar sus etiquetas. Veamos las más elementales.</p>
+        <h3>5.Títulos y subtítulos</h3>
+            <p><em>h1, h2.... h6</em> son etiquetas que funcionan para agregar títulos y subtítulos en el cuerpo del texto, lo cual ayuda a jerarquizar la información. Por cierto, te recomendamos utilizar la etiqueta H1 sólo una vez dentro del contenido.</p>
+            <p>Ejemplo:</p>
+            <pre style="padding: 12px; max-width: 100%; background-color: #f5f2f0 !important; text-align: left;">&lt;h1&gt;Esta es una etiqueta H1. Utilízala en el título.&lt;/h1&gt;
+            &lt;h2&gt;Esta es una etiqueta H2. Utilízala en los encabezados de secciones.&lt;/h2&gt;
+            &lt;h3&gt;Esta es una etiqueta H3. Utilízala en sub-secciones.&lt;/h3&gt;
+            &lt;h4&gt;Esta es una etiqueta H4. No se usan muy a menudo.&lt;/h4&gt;
+            &lt;h5&gt;Esta es una etiqueta H5.&lt;/h5&gt;
+            &lt;h6&gt;Esta es una etiqueta H6.&lt;/h6&gt;</pre>
+            <p>Resultado:</p>
+                <h1>Esta es una etiqueta H1. Utilízala en el título</h1>
+                    <h2>Esta es una etiqueta H2. Utilízala en los encabezados de secciones</h2>
+                        <h3>Esta es una etiqueta H3. Utilízala en sub-secciones.</h3>
+                            <h4>Esta es una etiqueta H4. No se usan muy a menudo.</h4>
+                                <h5>Esto es una etiqueta H5</h5>
+                                    <h6>Esto es una etiqueta H6.</h6>
+        <h3>6.Párrrafos</h3>
+            <p>Las etiquetas <em>p y br</em>te ayudarán a organizar el texto en párrafos y saltos de línea</p>
+            <p>Ejemplo:</p>
+            <pre style="padding: 12px; max-width: 100%; background-color: #f5f2f0 !important; text-align: left;">&lt;p&gt;Tu primer párrafo.&lt;/p&gt;
+            &lt;p&gt;Tu segundo párrafo.&lt;/p&gt;
+            &lt;p&gt;Un enunciado.&lt;br&gt;
+            Un segundo enunciado (pegado al primero).&lt;/p&gt;</pre>
+            <p>Resultado:</p>
+            <p>Tu primer párrafo</p>
+            <p>Tu segundo párrafo</p>
+            <p>Un enunciado.<br>
+            Un segundo enunciado (pegado al primero)</p>
+     <h3>7.Imágenes</h3>
+            <p><em>img</em> con esta etiqueta podrás agregar imágenes al cuerpo de tu página. Combinarlo con el atributo src te permitirá especificar la ubicación donde se encuentra la imagen, y el atributo alt te ayudará a darle un título a esa imagen para que lo lean buscadores como Google.</p>
+            <p>La estructura de los atributos es la siguiente: primero viene la palabra o abreviatura que lo define (en este caso src es abreviatura de “source” o fuente), luego el signo igual (=) y al último el modificador del atributo entre comillas dobles (“_”) o simples (‘_’).</p>
+            <p>Ejemplo:</p>
+            <pre style="padding: 12px; max-width: 100%; background-color: #f5f2f0 !important; text-align: left;">&lt;img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a"&gt;</pre>
+          <img loading="lazy" class="alignnone wp-image-76632 size-full lazy-loaded" src="http://58f.7f8.myftpupload.com/wp-content/uploads/GoDaddy-html-02-pagina.png" data-lazy-type="image" data-src="http://58f.7f8.myftpupload.com/wp-content/uploads/GoDaddy-html-02-pagina.png" alt="Crea tu página web con HTML" width="648" height="369">
+            <p><strong>He puesto otra vez esta imagen porque la de la pagina no se ajusta bien a la pagina web.</strong></p>
+            <h3>8.Hipervínculos</h3>
+                <p><em>a</em>te permite insertar un hipervínculo a la página. Por ejemplo, el link hacia tus redes sociales o hacia otro sitio web con el que desees conectar tu página.</p>
+                <p>Ejemplo:</p>
+                <pre style="padding: 12px; max-width: 100%; background-color: #f5f2f0 !important; text-align: left;">&lt;a href="https://mx.godaddy.com/blog"&gt;Visita el blog de GoDaddy&lt;/a&gt;</pre>
+       <section id="whoami">
+     <p class="hashtags"><a href="#">#creadorsitiosweb-cl</a> <a href="#">#paginaswebmarketing-ar-cl</a> <a href="#">#creadordesitiosweb-mx-cl</a></p>
+      <img class="face" src="https://cl.godaddy.com/blog/wp-content/uploads//CARB-150x150.jpg" alt="Alejandra Rubio Bravo">
+      <div class="whoami">
+        <h3>Alejandra Rubio Bravo</h3>
+        <p>Nativa del sur de la Ciudad de México, estudié Comunicación y me especialicé en corrección de estilo y Marketing Digital. Eterna enamorada de las letras, apasionada con la tecnología y feliz colaboradora en Virket, la empresa donde me encontré con la increíble riqueza de formas y oportunidades para comunicar y planificar estrategias enfocadas a innovar la relación cliente-empresa.</p>
+        <button>Más artículos por Alejandra</button>
+      </div>
+     
+   </section> 
+    </main>
+    <footer>
+        <p class="ms">Menú Social:</p>
+            <a class="menu_social" href="https://instagram.com/jxseruzm"><img src="./Iconos/instagram.png"></a>
+            <a class="menu_social" href="https://twitter.com"><img src="./Iconos/twitter.png"></a>
+            <a class="menu_social" href="https://facebook.com"><img src="./Iconos/facebook.png"></a>
+        <p>El uso de este sitio está sujeto a las condiciones de uso expresas. Al utilizar este sitio, tú indicas que aceptas cumplir con estos <a href="https://cl.godaddy.com/agreements/showdoc?pageid=UTOS&app_hdr=0">Términos de servicio universales.</a></p>
+
+       <p>
+         <a href="#">Legal</a> | <a href="#">Política de privacidad</a> | <a href="#">Cookies</a>
+         
+       </p>
+       <p>Copyright © 1999 – 2020 GoDaddy Operating Company, LLC. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
